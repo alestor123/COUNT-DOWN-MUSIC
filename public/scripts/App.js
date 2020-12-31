@@ -3,7 +3,7 @@ audio = document.getElementById("music"),
 funStat = false,
 befStat = false,
 message = document.getElementById('message'),
-newYear = new Date(`Dec 31, ${new Date().getFullYear()} 16:30:00`).getTime();
+newYear = new Date(`Jan 1, ${new Date().getFullYear()} 12:00:00`).getTime();
 audio = document.getElementById("music");
 audio.play()
 setInterval(() => {
